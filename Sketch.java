@@ -66,7 +66,7 @@ public class Sketch extends PApplet {
       float eyeX1 = RandomX - 10;
       float eyeX2 = RandomX + 10;
       
-      fill(0, RandomX + RandomY, RandomX);
+      fill(0, RandomX, RandomX);
       ellipse(eyeX1, RandomY, eyeD, eyeD);
       ellipse(eyeX2, RandomY, eyeD, eyeD);
     
