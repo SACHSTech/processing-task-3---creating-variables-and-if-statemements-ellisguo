@@ -109,7 +109,6 @@ public class Sketch extends PApplet {
     int intHH = intH + 7;
     
     text("hours: " + intHH + ", minutes:  " + intM + ", seconds: " + intS, 30, 30);
-    text("x: "+ RandomX + " y: " + RandomY, 300, 300);
 
     
   }
