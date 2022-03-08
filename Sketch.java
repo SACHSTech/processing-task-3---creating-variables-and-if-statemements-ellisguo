@@ -75,7 +75,7 @@ public class Sketch extends PApplet {
       float bodyY = RandomY + 37;
       float bodyH = 100;
       
-      fill(RandomY, 128, RandomX);
+      fill(RandomY, 128, 128);
       rect(bodyX, bodyY, headD, bodyH);
     
       // arms
